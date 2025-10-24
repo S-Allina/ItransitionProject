@@ -18,7 +18,7 @@ namespace Main.Domain.Entities.Items
 
         public string? TextValue { get; set; }
         public string? MultilineTextValue { get; set; }
-        public decimal? NumberValue { get; set; }
+        public double? NumberValue { get; set; }
         public string? FileUrl { get; set; }
         public bool? BooleanValue { get; set; }
 

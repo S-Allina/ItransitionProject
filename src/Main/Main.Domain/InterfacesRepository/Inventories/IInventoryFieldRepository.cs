@@ -5,9 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Main.Domain.InterfacesRepository
+namespace Main.Domain.InterfacesRepository.Inventories
 {
-    public interface ITagRepository : IBaseRepository<Tag>
-    {
-    }
+    public interface IInventoryFieldRepository : IBaseRepository<InventoryField>
+    {}
 }

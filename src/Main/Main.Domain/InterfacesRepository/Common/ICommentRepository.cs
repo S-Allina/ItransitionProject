@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Main.Domain.InterfacesRepository
+namespace Main.Domain.InterfacesRepository.Common
 {
     public interface ICommentRepository : IBaseRepository<Comment>
     {
