@@ -13,6 +13,7 @@ namespace Main.Domain.Entities.Comments
         public int InventoryId { get; set; } = 0;
         public Inventory Inventory { get; set; } = new Inventory();
         public string AuthorId { get; set; } = string.Empty;
+        public User Author { get; set; } = null!;
         public string Text { get; set; } = string.Empty;
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime UpdatedAt { get; set; } = DateTime.UtcNow; 

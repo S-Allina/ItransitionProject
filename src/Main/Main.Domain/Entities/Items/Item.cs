@@ -17,6 +17,8 @@ namespace Main.Domain.Entities.Items
 
         public string CustomId { get; set; }
         public string CreatedById { get; set; }
+        public User CreatedBy { get; set; } = null!;
+
         [Timestamp]
         public byte[] Version { get; set; }
 

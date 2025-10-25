@@ -13,6 +13,6 @@ namespace Main.Domain.Entities.Comments
         public int ItemId { get; set; }
         public Item Item { get; set; } = new Item();
         public string UserId { get; set; } = string.Empty;
-        public DateTime LikedAt { get; set; } = DateTime.UtcNow;
+        public User User { get; set; } = null!;
     }
 }
